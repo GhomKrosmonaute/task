@@ -1,7 +1,7 @@
 {
   "name": "@ghom/task",
   "description": "Modern task runner for Node.js (gulp like)",
-  "version": "0.0.0",
+  "version": "0.0.0-alpha",
   "scripts": {
     "build": "tsc",
     "test": "npm build && jest",
