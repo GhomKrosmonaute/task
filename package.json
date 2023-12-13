@@ -1,0 +1,15 @@
+{
+  "name": "@ghom/task",
+  "description": "Modern task runner for Node.js (gulp like)",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm build && jest",
+    "prettier": "prettier --write src"
+  },
+  "dependencies": {
+    "jest": "^29.7.0",
+    "typescript": "^5.3.3",
+    "prettier": "^3.1.1"
+  }
+}
